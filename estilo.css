@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+html, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url(fundo.jpg);
+  height: 900px;
+  background-position: cover;
+  background-color:grey;
+  color: white;
+  font-weight: lighter;
+}
+nav{margin:20px;
+}
+
+.vermelho {
+  background-color: #CF2227;
+  color: white;
+  font-weight: lighter;
+}
+
+.white {
+  background-color:white;
+  color: red;
+  font-weight: lighter;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+
+ h1,p {font-weight: lighter;
+}
+
+h1{font-size: 24px;
+}
+
+.grande{
+  font-size: 64px;
+}
+
+.medio{
+  font-size: 24px;
+}
+
+h2{font-size: 48px;
+font-weight: bold;
+}
+header, section, footer {
+  padding: 20px 20px 70px 20px;
+}
+section{
+  text-align: justify;
+}
+
+header {
+  height: 400px;
+}
+
+body,p {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+ }
+ img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
